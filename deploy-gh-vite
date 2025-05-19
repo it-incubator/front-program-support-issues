@@ -1,0 +1,12 @@
+deploy to github pages need write  field "base"  in viteconfig
+
+
+in vite config export default defineConfig({
+  base: "/REPONAME/",
+  plugins: [],
+  resolve: {
+    alias: [
+      
+    ]
+  },
+})    ==== ((   base: "/REPONAME/", )))
